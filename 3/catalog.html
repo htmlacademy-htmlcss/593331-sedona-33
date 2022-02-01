@@ -89,9 +89,9 @@
               </li>
             </ul>
           </fieldset>
-          <!--ЭЛЕМЕНТ СТОИМОСТЬ С БЕГУНОКОМ ПОКА НЕ ДЕЛАЕМ, БУДЕМ РАЗБИРАТЬ В 8 УРОКЕ Стоимость, ₽: -->
+          <!--ЭЛЕМЕНТ СТОИМОСТЬ С БЕГУНОКОМ ПОКА НЕ ДЕЛАЕМ, БУДЕМ РАЗБИРАТЬ В 8 УРОКЕ не забыть Стоимость, ₽: -->
           <button class="button" type="submit">Применить</button>
-          <button class="button" type="submit">Сбросить</button><!--ВОЗМОЖНО НЕ ПРАВИЛЬНО-->
+          <button class="button" type="reset">Сбросить</button><!--Я поменяла type, вроде работает-->
         </form>
         <!--Элемент НАЙДЕНО ГОСТИНИЦ не понятно как делать, и откуда будет браться цифра - тоже не ясно-->
         <select class="select-control" aria-label="Сортировка">
@@ -108,17 +108,78 @@
         <a class="button" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
-
+        <ul class="hotel-list">
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="product-car-image" src="" alt="Отель 'Amara Resort & Spa'">
+            </a>
+            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+            <span class="hotel-card-price">Гостиница От 4000 ₽</span>
+            <a class="hotel-card-button button" href="#">Подробнее</a>
+            <button class="button" type="submit">Избранное</button><!--Тоже не ясно какой тут тип кнопочки-->
+            <span>Рейтинг: 8,5</span><!--Я так поняла что звездочки делают как-то потом в CSS-->
+          </li>
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="product-car-image" src="" alt="Отель 'Desert Quail Inn'">
+            </a>
+            <h3 class="hotel-card-title">Desert Quail Inn</h3>
+            <span class="hotel-card-price">Гостиница От 3000 ₽</span>
+            <a class="hotel-card-button button" href="#">Подробнее</a>
+            <button class="button" type="submit">Избранное</button>
+            <span>Рейтинг: 8,9</span>
+          </li>
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="product-car-image" src="" alt="Отель 'Villas at Poco Diablo'">
+            </a>
+            <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
+            <span class="hotel-card-price">Гостиница От 2000 ₽</span>
+            <a class="hotel-card-button button" href="#">Подробнее</a>
+            <button class="button" type="submit">Избранное</button><!--Здесь кнопка горит зеленым!-->
+            <span>Рейтинг: 9,2</span>
+          </li>
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="product-car-image" src="" alt="Отель 'GreenTree Inn'">
+            </a>
+            <h3 class="hotel-card-title">GreenTree Inn</h3>
+            <span class="hotel-card-price">Гостиница От 3000 ₽</span>
+            <a class="hotel-card-button button" href="#">Подробнее</a>
+            <button class="button" type="submit">Избранное</button>
+            <span>Рейтинг: 9,2</span>
+          </li>
+        </ul>
+        <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-next" href="#">...<!--Не правильно наверное--></a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
+        <span>Гостиниц на странице</span><!--Не ясно как что это опять делать и как их поженить эти два поля-->
+        <select class="select-control" aria-label="Сортировка">
+          <option value="4">4</option>
+          <option value="8">8</option>
+          <option value="16">16</option>
+          <option value="20">20</option>
+        </select>
       </section>
-
-
-
     </main>
-
-
-
-
-
     <footer class="page-footer">
       <section class="footer-sign">
       <h2 class="footer-sign-title visually-hidden">Подписка</h2>
