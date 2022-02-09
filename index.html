@@ -4,32 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Седона - главная страница</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
         <nav class="navigation">
-            <a class="logo" href="index.html"><img src="" alt="Логотип Cедона"></a>
+            <a class="logo" href="index.html"><img src="images/logo_sedona.svg" width="139" height="70" alt="Логотип Cедона"></a>
             <ul class="navigation-list">
-                <li class="navigation-item">
-                    <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">О Седоне</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="catalog.html">Гостиницы</a>
-                </li>
+              <li class="navigation-item">
+                <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#">О Седоне</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="catalog.html">Гостиницы</a>
+              </li>
             </ul>
             <ul class="navigation-user">
               <li class="navigation-item">
-                  <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+                <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
               </li>
               <li class="navigation-item">
-                  <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a>
+                <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a>
               </li>
               <li class="navigation-item">
-                  <button class="button button-brown">Хочу сюда!</button>
+                <a class="button button-brown" href="#">Хочу сюда!</a>
               </li>
             </ul>
         </nav>
@@ -37,7 +37,7 @@
     <main class="main-index">
       <section class="welcome-block">
         <h2 class="visually-hidden">Добро пожаловать в Седону!</h2>
-        <img src="" alt='Картинка с надписью welcome to the gorgeous Sedonda because the Grand Canyon suks!'>
+        <img src="images/welcome_group.svg" width="458" height="352" alt='Картинка с надписью welcome to the gorgeous Sedonda because the Grand Canyon suks!'>
       </section>
       <section class="advantages">
         <h1>Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
@@ -48,7 +48,7 @@
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-number"> - №1 - </p>
             <p class="advantages-description">Седона - не атракцион для туристов, там течёт своя жизнь</p>
-            <img src="" alt="Фотография вид на город">
+            <img src="images/photo_city.jpg" width="800" height="384" alt="Фотография вид на город">
             <ul class="advantages-list-common">
                 <li class="advantages-item-common">
                   <h3 class="advantages-title">Жильё</h3>
@@ -67,7 +67,7 @@
                 </li>
             </ul>
           <li class="advantages-item">
-            <img src="" alt="Фотография вид на красные скалы">
+            <img src="images/photo_mountains.jpg" width="800" height="384" alt="Фотография вид на красные скалы">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-number"> - №2 - </p>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -93,13 +93,12 @@
         <h2 class="search-title visually-hidden">Поиск гостиницы</h2>
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="button button-brown">Поиск гостиницы в Седоне</button>
+        <a class="button button-brown" href="#">Поиск гостиницы в Седоне</a>
       </section>
     </main>
     <footer class="page-footer">
       <section class="footer-sign">
-        <h2 class="footer-sign-title visually-hidden">Подписка</h2>
-        <p>Подпишитесь на рассылку</p>
+        <h2 class="footer-sign-title visually-hidden">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" value="Ваш e-mail">
