@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #333333;
+}
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.page-header {
+  color: #000000;
+}
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.button-brown {
+  background-color: #756257 ;
+  }
+.welcome-block {
+  background-image: url("../images/welcome_group_photo.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+}
+.reasons {
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  text-align: center;
+}
+.advantages-list {
+  background-color: #83B3D3;
+  background-size: 100% auto;
+  text-align: center;
+}
+.advantages-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.search {
+  text-align: center;
+}
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.main-font {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.white-font {
+  color:#ffffff;
+}
+.footer-sign-main-page {
+  background-image: url("../images/mailing_background.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.button-blue {
+  background-color: #83B3D3;
+}
+.footer-phone-number {
+  color:#000000;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+.hotels-filter{
+  background-image: url("../images/filter_hotel_background.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
