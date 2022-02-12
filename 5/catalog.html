@@ -36,14 +36,15 @@
         </nav>
     </header>
     <main class="main-inner">
+      <div class="catalog-hotels-form">
       <header class="inner-header">
         <h1 class="white-font">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">Домой</a>
+            <a class="breadcrumbs-link white-font" href="index.html">Домой</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
+            <a class="breadcrumbs-link white-font">Гостиницы</a>
           </li>
         </ul>
       </header>
@@ -103,7 +104,11 @@
           <button class="button button-blue" type="submit">Применить</button>
           <button class="button button-hidden" type="reset">Сбросить</button>
         </form>
-        <p>Найдено гостиниц: 38</p>
+        </section>
+      </div>
+      <section class="hotel-cards">
+        <h2 class="visually-hidden">Найденные гостиницы</h2>
+        <p class="summary-hotels">Найдено гостиниц: 38</p>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала дешёвые</option>
           <option value="cheap">Сначала дорогие</option>
@@ -130,7 +135,7 @@
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
             <span class="visually-hidden stars four-stars">звездочка</span>
-            <span>Рейтинг: 8,5</span>
+            <span class="rating">Рейтинг: 8,5</span>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
@@ -145,7 +150,7 @@
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
             <span class="visually-hidden stars three-stars">звездочка</span>
-            <span>Рейтинг: 8,9</span>
+            <span class="rating">Рейтинг: 8,9</span>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
@@ -158,7 +163,7 @@
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-green" href="#">В избранном</a>
             <span class="visually-hidden stars two-stars">звездочка</span>
-            <span>Рейтинг: 9,2</span>
+            <span class="rating">Рейтинг: 9,2</span>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
@@ -171,7 +176,7 @@
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
             <span class="visually-hidden stars two-stars">звездочка</span>
-            <span>Рейтинг: 9,2</span>
+            <span class="rating">Рейтинг: 9,2</span>
           </li>
         </ul>
         <a class="button button-blue pagination-show-more" href="#">Загрузить ещё</a>
@@ -195,6 +200,7 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
+      </section>
         <div>
           <p>Гостиниц на странице</p>
           <select class="select-control" aria-label="Сортировка">
@@ -204,14 +210,13 @@
             <option value="20">20</option>
           </select>
         </div>
-      </section>
     </main>
     <footer class="page-footer">
       <section class="footer-sign">
         <h2 class="footer-sign-title">Подпишитесь на рассылку</h2>
         <p class="main-font">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" value="Ваш e-mail">
+          <input class="sign-form" type="text" value="Ваш e-mail">
           <button class="button button-blue" type="submit">Подписаться</button>
         </form>
       </section>
