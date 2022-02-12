@@ -2,14 +2,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 body {
@@ -18,6 +18,10 @@ body {
   line-height: 21px;
   background-color: #ffffff;
   color: #333333;
+}
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 .button {
   font-family: inherit;
@@ -42,11 +46,11 @@ body {
   background-color: #756257 ;
   }
 .welcome-block {
-  background-image: url("../images/welcome_group_photo.jpg"), url("../images/bottom_part_of_welcome_group.svg");
-  background-size: 100% auto;
+  background-image: url("../images/bottom_part_of_welcome_group.svg"), url("../images/welcome_group_photo.jpg");
+  background-size: 1200px;
   background-repeat: no-repeat;
   text-align: center;
-  background-position: top, bottom;
+  background-position: bottom;
 }
 .main-title {
   font-weight: 700;
@@ -63,7 +67,7 @@ body {
 }
 .advantages-list {
   background-color: #83B3D3;
-  background-size: 100% auto;
+  background-size: 1200px;
   text-align: center;
 }
 .advantages-title {
@@ -92,7 +96,7 @@ body {
   background-image: url("../images/mailing_background.jpg");
   text-align: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 1200px;
 }
 .button-blue {
   background-color: #83B3D3;
@@ -108,7 +112,7 @@ body {
   background-image: url("../images/filter_hotel_background.jpg");
   text-align: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 1200px;
 }
 .summary-hotels {
   color: #000000;
@@ -121,6 +125,7 @@ body {
   color: #333333;
   font-size: 18px;
   line-height: auto;
+  font-family: inherit;
 }
 .hotel-card-title {
   color: #000000;
@@ -170,4 +175,9 @@ body {
 }
 .sign-form {
   background-color: #F2F2F2;
+  font-family: inherit;
 }
+.cost {
+  font-family: inherit;
+}
+
