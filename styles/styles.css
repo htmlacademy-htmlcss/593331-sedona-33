@@ -42,10 +42,11 @@ body {
   background-color: #756257 ;
   }
 .welcome-block {
-  background-image: url("../images/welcome_group_photo.jpg");
+  background-image: url("../images/welcome_group_photo.jpg"), url("../images/bottom_part_of_welcome_group.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+  background-position: top, bottom;
 }
 .main-title {
   font-weight: 700;
@@ -80,14 +81,12 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  text-transform: uppercase;
 }
 .main-font {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-}
-.white-font {
-  color:#ffffff;
 }
 .footer-sign-main-page {
   background-image: url("../images/mailing_background.jpg");
@@ -105,9 +104,70 @@ body {
   line-height: 40px;
   text-decoration: none;
 }
-.hotels-filter{
+.catalog-hotels-form{
   background-image: url("../images/filter_hotel_background.jpg");
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.summary-hotels {
+  color: #000000;
+  font-size: 30px;
+  line-height: auto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.select-control {
+  color: #333333;
+  font-size: 18px;
+  line-height: auto;
+}
+.hotel-card-title {
+  color: #000000;
+  font-size: 24px;
+  line-height: auto;
+  font-weight: 700;
+}
+.hotel-card-price {
+  line-height: auto;
+}
+.rating {
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+.pagination-link {
+  background-color: #83B3D3;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: auto;
+  color:#ffffff
+}
+.pagination-current {
+  background-color: #F2F2F2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: auto;
+  color: #000000
+}
+.button-green {
+  background-color: #7DB54F;
+}
+.footer-sign-title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.white-font {
+  color:#ffffff;
+}
+.footer-sign {
+  text-align: center;
+}
+.sign-form {
+  background-color: #F2F2F2;
 }
