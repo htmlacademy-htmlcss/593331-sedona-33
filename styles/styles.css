@@ -2,14 +2,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 body {
@@ -19,20 +19,202 @@ body {
   background-color: #ffffff;
   color: #333333;
 }
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 .page-header {
   color: #000000;
 }
 .navigation-link {
   font-weight: 700;
-  font-size: 20;
-  line-height: 26;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
   text-decoration: none;
   text-align: center;
 }
+.button-brown {
+  background-color: #756257 ;
+  }
+.welcome-block {
+  background-image: url("../images/bottom_part_of_welcome_group.svg"), url("../images/welcome_group_photo.jpg");
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: bottom;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+}
+.reasons {
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  text-align: center;
+}
 .advantages-list {
   background-color: #83B3D3;
-  color: #333333;
-  background-size: 100% auto;
+  text-align: center;
 }
-
+.advantages-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.search {
+  text-align: center;
+}
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.main-font {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.footer-sign-main-page {
+  background-image: url("../images/mailing_background.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 1200px;
+}
+.button-blue {
+  background-color: #83B3D3;
+}
+.footer-phone-number {
+  color:#000000;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+.catalog-hotels-form{
+  background-image: url("../images/filter_hotel_background.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 1200px;
+}
+.summary-hotels {
+  color: #000000;
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.select-control {
+  color: #333333;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: inherit;
+}
+.hotel-card-title {
+  color: #000000;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+.hotel-card-price {
+  line-height: 23px;
+}
+.rating {
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+.pagination-link {
+  background-color: #83B3D3;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color:#ffffff
+}
+.pagination-current {
+  background-color: #F2F2F2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000
+}
+.button-green {
+  background-color: #7DB54F;
+}
+.footer-sign-title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.white-font {
+  color:#ffffff;
+}
+.footer-sign {
+  text-align: center;
+}
+.sign-form {
+  background-color: #F2F2F2;
+  font-family: inherit;
+}
+.cost {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+}
+.button-hidden {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: none;
+}
+.button-small, .hotel-card-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+.button-big-blue {
+  font-size: 20px;
+  line-height: 26px;
+}
+.big-title {
+  font-size: 60px;
+  line-height: 77px;
+}
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 20px;
+}
+.hotel-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.hotel-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+}
