@@ -73,6 +73,7 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 .button-brown {
   background-color: #756257 ;
@@ -98,7 +99,7 @@ body {
   line-height: 36px;
   color: #333333;
   text-align: center;
-  margin-bottom: 35px: ;
+  margin-bottom: 110px;
 }
 .advantages-list {
   background-color: #83B3D3;
@@ -343,11 +344,10 @@ body {
 }
 .search {
   padding-top: 91px;
-  padding-bottom: 93x;
+  padding-bottom: 93px;
   padding-left: 240px;
   padding-right: 240px;
 }
-
 .button-brown.button-big {
   margin-bottom: 20px;
   margin-top: 15px;
