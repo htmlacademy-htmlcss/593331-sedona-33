@@ -17,8 +17,6 @@ html {
 }
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -74,6 +72,8 @@ body {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 .button-brown {
   background-color: #756257 ;
@@ -109,7 +109,6 @@ body {
   margin: 0;
   padding: 0;
   grid-template-columns: 400px 400px 400px ;
-  grid-template-rows: 4;
 }
 .advantages-item-wide {
   display: grid;
@@ -364,7 +363,7 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.hotel-description {
+.hotel-card {
   width: 340px;
 }
 .hotel-card-button {
