@@ -35,6 +35,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
 }
 .page-header {
   color: #000000;
@@ -45,25 +46,34 @@ body {
   margin: 0 auto;
 }
 .navigation-list {
+  display: flex;
   margin: 0;
   padding: 0;
   width: 345px;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 .navigation-user {
   max-width: 300px;
   margin-left: auto;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .navigation-link {
+  display: block;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
   text-decoration: none;
-  text-align: center;
+}
+.navigation-user .navigation-link {
+  min-width: 30px;
+  min-height: 30px;
 }
 .main-container {
   flex-grow: 1;
@@ -168,7 +178,6 @@ body {
 }
 .catalog-hotels-form{
   background-image: url("../images/filter_hotel_background.jpg");
-  text-align: center;
   background-repeat: no-repeat;
   background-size: 1200px;
   background-position: 50% 50%;
@@ -191,6 +200,8 @@ body {
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
+  padding: 0px;
+  margin: 0px;
 }
 .hotel-card-price {
   line-height: 23px;
@@ -199,22 +210,6 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   background-color: #F2F2F2;
-}
-.pagination-link {
-  background-color: #83B3D3;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  color:#ffffff
-}
-.pagination-current {
-  background-color: #F2F2F2;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  color: #000000
 }
 .button-green {
   background-color: #7DB54F;
@@ -264,6 +259,8 @@ body {
 .big-title {
   font-size: 60px;
   line-height: 77px;
+  margin-top: 35px;
+  margin-bottom: 5px;
 }
 .breadcrumbs {
   font-size: 16px;
@@ -271,6 +268,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .hotel-filter-title {
   font-size: 20px;
@@ -294,12 +292,21 @@ body {
 .page-footer-container {
   display: flex;
   margin: 0 auto;
-  width: 1200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .footer-social-icons {
   width: 107px;
   list-style-type: none;
   margin-right: 61px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.footer-item {
+  min-width: 30px;
+  min-height: 30px;
 }
 .footer-web {
   margin-left: 72px;
@@ -310,15 +317,48 @@ body {
   margin-right: 240px;
   width: 720px;
 }
-.hotel-card {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 .pagination {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  margin-top: 30px;
+}
+.pagination-item {
+  margin: 8px;
+  display: flex;
+}
+.pagination-link {
+  background-color: #83B3D3;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color:#ffffff;
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  border-radius: 5px 5px 5px 5px;
+}
+.pagination-current {
+  background-color: #F2F2F2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000
+}
+.pagination-show-more {
+  display: block;
+  width: 619px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding: auto;
 }
 .advantages-wide-container {
   padding-top: 10px;
@@ -366,6 +406,43 @@ body {
 .hotel-card {
   width: 340px;
 }
-.hotel-card-button {
+.hotel-filter-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hotel-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 34px;
+}
+.sorting-container {
+  display: flex;
+}
+.summary-hotels {
   display: block;
+}
+.hotel-card-title-link {
+  text-decoration: none;
+}
+.hotel-card-button.button-brown {
+  width: 133px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  display: block;
+}
+.hotel-card-button.button-blue {
+  width: 141px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  display: block;
+}
+.hotel-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.button .button-sorting {
+  width: 48px;
+  height: 48px;
 }
