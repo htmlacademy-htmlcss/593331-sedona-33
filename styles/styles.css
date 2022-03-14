@@ -454,15 +454,18 @@ body {
 .button-brown.button-big {
   margin-bottom: 20px;
   margin-top: 15px;
+  height: 30px;
+  width: 575px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .advantages-list {
   margin-top: 30px;
 }
 .hotels-filter {
-  display: flex;
-  flex-direction: row;
-}
-.hotels-filter-group {
   display: flex;
   flex-direction: row;
 }
@@ -533,6 +536,10 @@ body {
 }
 .white-square {
   background-color: #FFFFFF;
+  background-image: url("../images/icon_burger.svg");
+  background-repeat: no-repeat;
+  background-size: 70px 74px;
+  background-position: 163px 91px;
 }
 .dark-blue-square {
   background-color: #E6F0F6;
@@ -587,7 +594,7 @@ body {
   margin-top: 35px;
 }
 .hotel-filter-group-infra {
-  padding-left: 0px;
+  padding: 0px;
 }
 fieldset {
   border: 0 none;
@@ -599,7 +606,7 @@ fieldset {
   grid-template-columns: 217px 311px 368px 160px;
 }
 .hotel-filter-group-type {
-  padding-left: 0px;
+  padding: 0px;
   margin-left: 0px;
 }
 .hotel-filter-list{
@@ -612,7 +619,7 @@ fieldset {
   padding-bottom: 13px;
 }
 .hotel-filter-group-cost {
-  padding-left: 0px;
+  padding: 0px;
   margin-left: 0px;
 }
 .hotel-filter-title {
@@ -627,4 +634,18 @@ fieldset {
 .hotel-filter-buttons {
   margin-top: 60px;
   text-align: center;
+}
+.apartment-icon {
+  position: relative;
+  background-image: url("../images/icon_house.svg");
+  background-repeat: no-repeat;
+  background-size: 72px 75px;
+  background-position: 163px 89px;
+}
+.gifts-icon {
+  position: relative;
+  background-image: url("../images/icon_gift.svg");
+  background-repeat: no-repeat;
+  background-size: 64px 76px;
+  background-position: 168px 85px;
 }
