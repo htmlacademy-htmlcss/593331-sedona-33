@@ -110,7 +110,6 @@
               </label>
             </fieldset>
             <div class="hotel-filter-buttons">
-              <!--ЭЛЕМЕНТ СТОИМОСТЬ С БЕГУНОКОМ ПОКА НЕ ДЕЛАЕМ, БУДЕМ РАЗБИРАТЬ В 8 УРОКЕ-->
               <button class="button button-small button-blue" type="submit">Применить</button>
               <button class="button button-hidden" type="reset">Сбросить</button>
             </div>
@@ -127,13 +126,35 @@
             <option value="expensive">Сначала популярные</option>
           </select>
           <div class="sorting-section">
-            <a class="button button-sorting" href="#">
+            <a class="button button-sorting" href="#"><svg aria-hidden="true" focusable="false" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="46" height="46" rx="3" stroke="black" stroke-width="2"/>
+              <path d="M20 17H16V23H20V17Z" fill="black"/>
+              <path d="M32 17H28V23H32V17Z" fill="black"/>
+              <path d="M26 17H22V23H26V17Z" fill="black"/>
+              <path d="M20 25H16V31H20V25Z" fill="black"/>
+              <path d="M32 25H28V31H32V25Z" fill="black"/>
+              <path d="M26 25H22V31H26V25Z" fill="black"/>
+              </svg>
               <span class="visually-hidden">Показать карточки</span>
             </a>
-            <a class="button button-sorting" href="#">
-              <span class="visually-hidden">Показать слайдшоу</span>
+            <a class="button button-sorting" href="#"><svg aria-hidden="true" focusable="false" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="46" height="46" rx="3" stroke="#E6E6E6" stroke-width="2"/>
+              <path d="M32 29H16V31H32V29Z" fill="black"/>
+              <path d="M30 19V25H18V19H30ZM32 17H16V27H32V17Z" fill="black"/>
+              </svg>
+              <span class="visually-hidden">Показать по одному</span>
             </a>
-            <a class="button button-sorting" href="#">
+            <a class="button button-sorting" href="#"><svg aria-hidden="true" focusable="false" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="46" height="46" rx="3" stroke="#E5E5E5" stroke-width="2"/>
+              <path d="M18 17H16V19H18V17Z" fill="black"/>
+              <path d="M32 17H20V19H32V17Z" fill="black"/>
+              <path d="M18 21H16V23H18V21Z" fill="black"/>
+              <path d="M32 21H20V23H32V21Z" fill="black"/>
+              <path d="M18 25H16V27H18V25Z" fill="black"/>
+              <path d="M32 25H20V27H32V25Z" fill="black"/>
+              <path d="M18 29H16V31H18V29Z" fill="black"/>
+              <path d="M32 29H20V31H32V29Z" fill="black"/>
+              </svg>
               <span class="visually-hidden">Показать список</span>
             </a>
           </div>
@@ -151,7 +172,9 @@
             <span class="hotel-card-price-second-part">От 4000 ₽</span>
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
-            <span class="visually-hidden stars four-stars">звездочка</span>
+            <p class="stars four-stars">
+              <span class="visually-hidden">звездочка</span>
+            </p>
             <span class="rating">Рейтинг: 8,5</span>
           </li>
           <li class="hotel-card">
@@ -166,7 +189,9 @@
             <span class="hotel-card-price-second-part">От 3000 ₽</span>
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
-            <span class="visually-hidden stars three-stars">звездочка</span>
+            <p class="stars three-stars">
+              <span class="visually-hidden ">звездочка</span>
+            </p>
             <span class="rating">Рейтинг: 8,9</span>
           </li>
           <li class="hotel-card">
@@ -181,7 +206,9 @@
             <span class="hotel-card-price-second-part"> От 2000 ₽</span>
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-green" href="#">В избранном</a>
-            <span class="visually-hidden stars two-stars">звездочка</span>
+            <p class="stars two-stars">
+              <span class="visually-hidden ">звездочка</span>
+            </p>
             <span class="rating">Рейтинг: 9,2</span>
           </li>
           <li class="hotel-card">
@@ -196,7 +223,9 @@
             <span class="hotel-card-price-second-part">От 3000 ₽</span>
             <a class="button hotel-card-button button-brown" href="#">Подробнее</a>
             <a class="button hotel-card-button button-blue" href="#">В избранное</a>
-            <span class="visually-hidden stars two-stars">звездочка</span>
+            <p class="stars two-stars">
+              <span class="visually-hidden ">звездочка</span>
+            </p>
             <span class="rating">Рейтинг: 9,2</span>
           </li>
         </ul>
@@ -219,11 +248,11 @@
               <a class="pagination-link pagination-next" href="#">...</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
+              <a class="pagination-link pagination-link-two-numbers" href="#">10</a>
             </li>
           </ul>
           <div class="hotels-on-page-summary">
-            <p class="hotels-on-page">Гостиниц на странице</p>
+            <p class="hotels-on-page">Гостиниц на странице:</p>
             <select class="select-control-number" aria-label="Сортировка">
               <option value="4">4</option>
               <option value="8">8</option>
@@ -235,7 +264,7 @@
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer-sign">
+      <section class="footer-sign-inner-page">
         <h2 class="footer-sign-title">Подпишитесь на рассылку</h2>
         <p class="main-font">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="post">
