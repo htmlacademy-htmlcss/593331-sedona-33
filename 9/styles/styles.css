@@ -73,13 +73,13 @@ body {
 }
 .navigation-link {
   display: block;
-  padding: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 30px;
+  padding-top: 11px;
 }
 .navigation-link:hover {
   color: #756257;
@@ -89,13 +89,19 @@ body {
 }
 .navigation-link-current {
   border-bottom: 2px solid #756257;
+  padding-bottom: 18px;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 11px;
+  margin-right: 35px;
 }
 .button-small.button-brown:focus-visible {
   border-radius: 4px;
-  background-color: #615048 ;
   box-sizing: border-box;
+  background-color: #615048 ;
   outline: none;
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 .button-small.button-brown:hover {
   background-color: #615048;
@@ -126,6 +132,7 @@ body {
 }
 .navigation-link-last {
   margin: 0px;
+  margin-left: 4px;
 }
 .logo {
   margin-left: 70px;
@@ -221,7 +228,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-  margin-top: 26px;
+  margin-top: 24px;
   margin-bottom: 32px;
 }
 .footer-sign-main-page {
@@ -403,12 +410,14 @@ body {
   margin-top: 0px;
 }
 .footer-icon {
-  min-width: 24px;
-  min-height: 20px;
+  min-width: 40px;
+  min-height: 40px;
   display: block;
 }
 .footer-icon svg {
   fill: #83B3D3;
+  padding-top: 12px;
+  padding-left: 14px;
 }
 .footer-icon:hover svg {
   fill: #68A2CA;
@@ -417,11 +426,9 @@ body {
   fill: #DAE8F2;
 }
 .footer-item {
-  padding-top: 2px;
-  padding-left: 4px;
   margin: 4px;
 }
-.footer-icon:focus-visible {
+.footer-item:focus-visible {
   border-radius: 4px;
   box-sizing: border-box;
   outline: none;
@@ -433,11 +440,12 @@ body {
 .footer-web {
   display: flex;
   max-width: 115px;
-  margin-left: 34px;
-  margin-top: 2px;
+  margin-left: 12px;
+  margin-top: -14px;
 }
 .footer-phone-number {
- margin-left: 196px;
+ margin-left: 183px;
+ padding: 12px;
 }
 .footer-phone-number:hover {
   color: #756257;
@@ -448,7 +456,7 @@ body {
 .footer-phone-number:focus-visible {
   color: #756257;
   outline: none;
-  border: 3px solid #83B3D3;
+  box-shadow: inset 0 0 0 3px #83B3D3;
   border-radius: 10px;
 }
 .pagination {
@@ -530,14 +538,14 @@ body {
 .button-brown.button-big {
   margin-bottom: 10px;
   margin-top: 55px;
-  height: 60px;
+  height: 30px;
   width: 575px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 10px 10px 10px 10px;
-  box-sizing: border-box;
 }
 .button-brown.button-big:hover {
   background-color:#615048;
@@ -547,10 +555,9 @@ body {
   color:#90847F
 }
 .button-brown.button-big:focus-visible {
-  border-radius: 10px;
-  border: 3px solid #83B3D3;
   background-color: #615048 ;
   outline: none;
+  box-shadow: inset 0 0 0 3px #83B3D3;
 }
 .advantages-list {
   margin-top: 30px;
@@ -782,6 +789,7 @@ fieldset {
 }
 .logo-academy svg {
   fill: #000000;
+  padding: 16px 20px;
 }
 .logo-academy:hover svg {
   fill: #756257;
@@ -792,6 +800,47 @@ fieldset {
 .logo-academy:focus-visible {
   fill: #756257;
   outline: none;
-  border: 3px solid #83B3D3;
   border-radius: 10px;
+  box-shadow: inset 0 0 0 3px #83B3D3;
+}
+.hotel-card-button.button-brown:focus-visible {
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px #83B3D3;
+  background-color: #615048;
+}
+.hotel-card-button.button-brown:hover {
+  background-color: #615048;
+}
+.hotel-card-button.button-brown:active {
+  background-color: #615048;
+  color: #90847F;
+}
+.hotel-card-button.button-blue:focus-visible {
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px #756257;
+  background-color: #68A2CA;
+}
+.hotel-card-button.button-blue:hover {
+  background-color: #68A2CA;
+  box-shadow: inset 0 0 0 1px #756257;
+}
+.hotel-card-button.button-blue:active {
+  background-color: #68A2CA;
+  box-shadow: inset 0 0 0 1px #756257;
+  color: #96BEDA;
+}
+.hotel-card-button.button-green:focus-visible {
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px #756257;
+  background-color: #6C9E42 ;
+}
+.hotel-card-button.button-green:hover {
+  background-color: #6C9E42 ;
+}
+.hotel-card-button.button-green:active {
+  background-color: #6C9E42;
+  color: #98BB7B;
 }
