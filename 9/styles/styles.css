@@ -48,11 +48,11 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 345px;
+  width: 350px;
   list-style-type: none;
   flex-wrap: wrap;
   margin-top: 9px;
-  margin-left: 36px;
+  margin-left: 47px;
 }
 .navigation-user {
   max-width: 300px;
@@ -78,7 +78,6 @@ body {
   line-height: 26px;
   color: #000000;
   text-decoration: none;
-  margin-right: 30px;
   padding-top: 11px;
 }
 .navigation-link:hover {
@@ -93,7 +92,8 @@ body {
   position: relative;
   padding-left: 0px;
   padding-right: 0px;
-  margin-left: 11px;
+}
+.navigation-item {
   margin-right: 35px;
 }
 .button-small.button-brown:focus-visible {
@@ -129,10 +129,6 @@ body {
 }
 .user-link:active svg {
   fill:rgba(0, 0, 0, 0.2);
-}
-.navigation-link-last {
-  margin: 0px;
-  margin-left: 4px;
 }
 .logo {
   margin-left: 70px;
